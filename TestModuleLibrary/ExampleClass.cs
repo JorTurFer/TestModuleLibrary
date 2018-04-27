@@ -7,9 +7,9 @@ namespace TestModuleLibrary
 {
   public static class ExampleClass
   {
-    public static string Method1()
+    public static string Method1(string strResult = "")
     {
-      return "Example result 1";
+      return string.IsNullOrWhiteSpace(strResult)? "Example result 1" : strResult;
     }
 
     public static string Method2()
