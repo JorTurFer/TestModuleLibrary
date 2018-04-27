@@ -5,7 +5,12 @@ using System.Text;
 
 namespace TestModuleLibrary
 {
-    public class Class1
+  public static class ExampleClass
+  {
+    public static string Method1()
     {
+      return "Example result 1";
     }
+
+  }
 }
