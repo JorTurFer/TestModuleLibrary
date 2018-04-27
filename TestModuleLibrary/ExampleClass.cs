@@ -12,5 +12,10 @@ namespace TestModuleLibrary
       return "Example result 1";
     }
 
+    public static string Method2()
+    {
+      return "Example result 2";
+    }
+
   }
 }
